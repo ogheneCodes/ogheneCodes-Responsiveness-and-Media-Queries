@@ -1,0 +1,189 @@
+html{
+    font-family: url(https://fonts.google.com/specimen/Poppins);
+}
+main{
+    display:flex;
+    width:100%;
+    /* height: 100vh; */
+    background-image: url('images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+    background-color:  hsl(0, 100%, 74%) 
+
+}
+@media(max-width: 600px){
+    main{
+        display:block;
+        width:100%;
+        /* margin-top: 0px; */
+        /* margin-bottom: 15%; */
+        /* height: 100vh; */
+        background-image: url('images/bg-intro-desktop.png');
+        background-repeat: no-repeat;
+        background-color:  hsl(0, 100%, 74%) 
+    }
+}
+.text_container{
+    width: 50%;
+}
+.text_container_div{
+    width: 50%;
+    margin: 30% auto;
+}
+
+.text_container_div > h2{
+    font-size:xx-large;
+    font-weight: bolder;
+    color: white;
+    width: 100%;
+}
+
+.text_container_div > p{
+    width: 100%;
+    color: white
+}
+@media(max-width:600px){
+    .text_container{
+        width: 100%;
+    }
+    .text_container_div{
+        width: 100%;
+        margin: 0px auto;
+        /* background-color: green; */
+        
+    }
+    .text_container_div > h2{
+        font-size:xx-large;
+        font-weight: bolder;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .text_container_div > p{
+        width: 100%;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+.form_container{
+    width: 50%;    
+}
+
+.display_container{
+    width: 80%;
+    height: 30px;
+    margin: 35px 2px;
+    margin-bottom: 35px;
+    background-color:hsl(248, 32%, 49%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 5px 0px rgb(97, 98, 99);
+}
+.display_container > span{
+    width: 100%;
+    color: white;
+    /* text-align: center; */
+    font-size: large;
+    /* font-weight: bolder; */
+}
+@media(max-width:600px){
+    .form_container{
+        width: 100%;   
+    }
+    .display_container{
+        width: 90%;
+        height: 30px;
+        margin: 35px auto;
+        margin-bottom: 35px;
+        background-color:hsl(248, 32%, 49%);
+        border-radius: 10px;
+        text-align: center;
+        padding: 15px 0px;
+        box-shadow: 0px 5px 5px 0px rgb(97, 98, 99);
+    }
+    .display_container > span{
+        width: 100%;
+        color: white;
+        /* text-align: center; */
+        font-size: large;
+        /* font-weight: bolder; */
+    }
+}
+
+.form_div{
+    width: 80%;
+    border-radius: 15px;
+    margin: 0px 2px;
+    background-color: white;
+}
+input[type=text], input[type=email], input[type=password], input[type=submit]{
+    width: 80%;
+    height: 50px;
+    margin: 2% 20px;
+    margin-left: 10%;
+    border-radius: 5px;
+    font-size: large;
+}
+input[type=submit]{
+    width: 80%;
+    height: 50px;
+    margin: 2% 20px;
+    margin-left: 10%;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-align: center;
+    font-size:larger;
+    cursor: pointer;
+}
+.tc{
+    width: 80%;
+    height: 50px;
+    margin: 2% 20px;
+    margin-left: 10%;
+}
+.tc > span{
+    color:hsl(0, 100%, 74%);
+    cursor: pointer;
+}
+@media(max-width: 600px){
+    .form_div{
+        width: 90%;
+        border-radius: 15px;
+        margin: 0px auto;
+        background-color: white;
+    }
+    input[type=text], input[type=email], input[type=password], input[type=submit]{
+        width: 80%;
+        height: 50px;
+        margin: 2% 20px;
+        margin-left: 10%;
+        border-radius: 5px;
+        font-size: large;
+    }
+    input[type=submit]{
+        width: 80%;
+        height: 50px;
+        margin: 2% 20px;
+        margin-left: 10%;
+        border-radius: 5px;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        text-align: center;
+        font-size:larger;
+        cursor: pointer;
+    }
+    .tc{
+        width: 80%;
+        height: 50px;
+        margin: 2% 20px;
+        margin-left: 10%;
+    }
+    .tc > span{
+        color:hsl(0, 100%, 74%);
+        cursor: pointer;
+    }
+}
