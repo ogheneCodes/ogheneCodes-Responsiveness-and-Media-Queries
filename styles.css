@@ -191,13 +191,30 @@ input[type=submit]{
 }
 
 
-
 .form-control {
-	/* margin-bottom: 10px;
-	padding-bottom: 20px;
-	position: relative; */
-    /* background-color: green; */
+    display: block;
+    margin-bottom: 1.1rem;
+    position: relative;
 }
+
+.form-control i {
+    position: absolute;
+    top: 30px;
+    right: 75px;
+    color: hsl(0, 100%, 74%);
+    visibility: hidden;
+}
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    /* bottom: -28px; */
+    font-size: 15px;
+    color: hsl(0, 100%, 74%) ;
+    margin-bottom: 10px;
+}
+
+
 
 .form-control input {
 	/* border: 2px solid #f0f0f0;
