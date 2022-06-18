@@ -151,6 +151,7 @@ input:focus {
 
 .update > span {
     color: hsl(0, 100%, 74%) ;
+    cursor: pointer;
 }
 
 @media (max-width: 705px) {
